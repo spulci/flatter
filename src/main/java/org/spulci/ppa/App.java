@@ -1,11 +1,9 @@
 package org.spulci.ppa;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 public class App{
     public <T> List<T> flattenListOfListsStream(List<List<T>> list) {
         return list.stream()
@@ -15,7 +13,7 @@ public class App{
 
     public Integer[] flattenArrayOfArrayStream(Integer[][] array) {
         return  Arrays.stream(array)
-          .flatMap(Stream::of)
+          .flatMap(Arrays::stream)
           .toArray(Integer[]::new);
     }
 }
