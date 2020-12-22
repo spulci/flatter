@@ -1,6 +1,6 @@
 # EX 1 - PPA-Flatter
 
-This project contains a couple of implementation for Array flattening.
+This project contains a couple of implementations for Array flattening.
 First one uses Generics to flat a List of Ts. Second one flats an Array of Integer.
 
 A couple of unit tests check both implentations.
