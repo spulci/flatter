@@ -15,8 +15,6 @@ Implementations are based on declaritive style offered by [Java Stream API](http
 
 Be sure that your pwd is the project root to execute all the commands below
 
-To build that your actual pwd is the project root dir before executing the commands below:
-
 ```bash
 $ mvn clean package
 ```
